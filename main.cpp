@@ -13,7 +13,7 @@ void updateCircleCenters(std::vector<float>& vertices, ParticleManager& particle
 
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 800;
-const float CIRCLE_RADIUS = 0.05f;
+const float CIRCLE_RADIUS = 0.02f;
 const unsigned int numParticles = 1000;
 
 const char *vertexShaderSource = "#version 330 core\n"

@@ -44,7 +44,6 @@ void ParticleManager::step(float delta) {
     }
 
     /* (4) update positions half step */
-
     for (int i = 0; i < range; i++) {
         positions[i] += velocities[i] * halfStep;
     }
